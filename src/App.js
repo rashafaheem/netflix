@@ -5,7 +5,7 @@ import Banner from './Components/Banner/Banner'
 import RowPost from './Components/RowPost/RowPost'
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <NavBar/>
       <Banner/>
