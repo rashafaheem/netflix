@@ -12,7 +12,6 @@ function RowPost(props) {
            console.log(response.data)
            setmovies(response.data.results)
        }).catch(err=>{
-           
        })
     }, [])
 
@@ -20,7 +19,7 @@ function RowPost(props) {
         height: '390',
         width: '100%',
         playerVars: {
-          autoplay: 0,
+          autoplay: 1,
         },
       };
       const handleMovie = (id)=>{
